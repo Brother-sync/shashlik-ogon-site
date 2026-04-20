@@ -24,8 +24,9 @@ export default function HeroSection() {
                 Шашлык <span className="text-primary">Огонь</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Аутентичная кавказская и ближневосточная кухня, приготовленная с душой. Каждое блюдо — это огонь вкуса и традиции.
+                Аутентичная кавказская кухня, приготовленная с душой. Каждое блюдо — это огонь вкуса и традиции.
               </p>
+
             </div>
 
             {/* CTA Buttons */}
@@ -62,9 +63,9 @@ export default function HeroSection() {
           <div className="relative h-96 lg:h-full min-h-96 flex items-center justify-center">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-orange-200/10 rounded-3xl" />
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663437593076/TwB4qfG9od4wKjWyk64msg/hero-shashlik-9mzWPsTgyFkWYwbSKLuiwq.webp"
-              alt="Шашлык"
-              className="relative z-10 w-full h-full object-cover rounded-3xl shadow-2xl hover:shadow-3xl transition-shadow duration-300"
+              src="/manus-storage/3_c788c56b.jpg"
+              alt="Логотип Шашлык Огонь"
+              className="relative z-10 w-full h-full object-contain rounded-3xl shadow-2xl hover:shadow-3xl transition-shadow duration-300 p-8"
             />
           </div>
         </div>

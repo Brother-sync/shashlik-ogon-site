@@ -1,3 +1,4 @@
+import { useAuth } from "@/_core/hooks/useAuth";
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import AboutSection from "@/components/AboutSection";
@@ -12,6 +13,10 @@ import Footer from "@/components/Footer";
  * Design: Warm Mediterranean aesthetic with burnt orange accents
  */
 export default function Home() {
+  // The userAuth hooks provides authentication state
+  // To implement login/logout functionality, simply call logout() or redirect to getLoginUrl()
+  const { user, loading, error, isAuthenticated, logout } = useAuth();
+
   return (
     <div className="min-h-screen flex flex-col bg-background">
       <Navigation />

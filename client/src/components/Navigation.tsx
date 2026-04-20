@@ -24,9 +24,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/">
             <a className="flex items-center gap-2 group">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-orange-600 rounded-lg flex items-center justify-center text-white font-bold text-lg">
-                🔥
-              </div>
+              <img src="/manus-storage/2_c75b3c93.jpg" alt="Шашлык Огонь" className="w-10 h-10 rounded-lg object-cover" />
               <div className="flex flex-col">
                 <span className="font-bold text-lg text-primary">Шашлык Огонь</span>
                 <span className="text-xs text-muted-foreground">Калининград</span>
