@@ -65,7 +65,7 @@ export default function HeroSection() {
             <img
               src="/manus-storage/3_rounded_25596a7b.png"
               alt="Логотип Шашлык Огонь"
-              className="relative z-10 w-full h-full object-contain shadow-2xl hover:shadow-3xl transition-shadow duration-300 p-8"
+              className="relative z-10 w-full h-full object-contain shadow-2xl hover:shadow-3xl transition-shadow duration-300 p-8" style={{backgroundColor: '#f0e7d5', borderStyle: 'groove'}}
             />
           </div>
         </div>
