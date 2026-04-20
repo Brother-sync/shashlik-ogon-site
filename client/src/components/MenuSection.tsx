@@ -110,14 +110,14 @@ export default function MenuSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
             <img
-              src="/manus-storage/1_cleaned_3ab65cd2.jpg"
+              src="/manus-storage/1_cleaned_final_81f2fc91.jpg"
               alt="Меню - Часть 1"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>
           <div className="rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300">
             <img
-              src="/manus-storage/4_cleaned_7bf892bf.jpg"
+              src="/manus-storage/4_cleaned_final_63293e3b.jpg"
               alt="Меню - Часть 2"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />

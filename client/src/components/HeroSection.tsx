@@ -24,7 +24,7 @@ export default function HeroSection() {
                 Шашлык <span className="text-primary">Огонь</span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-lg">
-                Аутентичная кавказская кухня, приготовленная с душой. Каждое блюдо — это огонь вкуса и традиции.
+                
               </p>
 
             </div>
