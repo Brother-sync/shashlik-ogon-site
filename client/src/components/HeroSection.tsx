@@ -61,11 +61,11 @@ export default function HeroSection() {
 
           {/* Right Image */}
           <div className="relative h-96 lg:h-full min-h-96 flex items-center justify-center">
-            <div className="absolute inset-0 bg-gradient-to-br from-orange-100 to-orange-200 rounded-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-orange-200/10 rounded-3xl" />
             <img
-              src="/manus-storage/3_processed_dc664d09.png"
+              src="/manus-storage/3_c788c56b.jpg"
               alt="Логотип Шашлык Огонь"
-              className="relative z-10 w-full h-full object-contain shadow-2xl hover:shadow-3xl transition-shadow duration-300 p-8"
+              className="relative z-10 w-full h-full object-contain rounded-3xl shadow-2xl hover:shadow-3xl transition-shadow duration-300 p-8"
             />
           </div>
         </div>
